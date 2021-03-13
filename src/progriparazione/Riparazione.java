@@ -4,15 +4,15 @@ import java.util.Date;
 
 public abstract class Riparazione 
 {
-    Chiamata chiamata;
-    Date riparazione;
-    String nomeTecnico;
-    String descrizione;
-    String nomeProdotto;
-    int costoMateriale;
-    int tempoImpiegato;
-    static int spesaFissa = 23;
-    static int costoOrario = 5;
+    private Chiamata chiamata;
+    private Date riparazione;
+    private String nomeTecnico;
+    private String descrizione;
+    private String nomeProdotto;
+    protected int costoMateriale;
+    protected int tempoImpiegato;
+    protected static int spesaFissa = 23;
+    protected static int costoOrario = 5;
 
     public Riparazione(Chiamata chiamata, Date riparazione, String nomeTecnico, String descrizione, int costoMateriale, int tempoImpiegato) 
     {

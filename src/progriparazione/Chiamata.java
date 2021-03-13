@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class Chiamata 
 {
-    Date dataRichiesta;
-    String Nome;
-    String Cognome;
-    String numeroTelefonico;
+    private Date dataRichiesta;
+    private String Nome;
+    private String Cognome;
+    private String numeroTelefonico;
 
     public Chiamata(Date dataRichiesta, String Nome, String Cognome) 
     {
